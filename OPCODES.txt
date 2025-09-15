@@ -1,0 +1,23 @@
+ALU opcodes: 
+0000 -- NCO (no command)
+0001 -- ADD (addition)
+0010 -- SUB (subtraction)
+0011 -- MUL (multiplication)
+0100 -- DIV (division)
+
+REG opcodes:
+0000 -- NCO (no command)
+0001 -- MOV (move register to other register)
+0010 -- CLR (clear register use second Rvalue)
+0100 -- MOD (takes output data and puts into Rvalue of your choice)
+0101 -- SET (sets a register to specific value {val, reg})
+
+REGADDR opcodes:
+0000 -- NCO (no command/register)
+0001 -- R0  (register 0)
+0010 -- R1  (register 1)
+0011 -- R2
+0100 -- R3
+
+
+
