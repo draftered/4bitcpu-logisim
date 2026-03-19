@@ -1,5 +1,5 @@
 # 4bitcpu
-a "4-bit" cpu i made. it uses a 16-bit data bus that is separated into 4-bit chunks. it kinda sucks.
+a "4-bit" cpu i made. it uses a 16-bit input bus that is separated into 4-bit chunks. it kinda sucks.
 it has a little custom instruction set (if i make more itll be called the kiki isa) that should be very easy to learn.
 # OPCODES 
 these are more for me to have as a reference. 
